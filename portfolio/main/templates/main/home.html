@@ -1,0 +1,66 @@
+{% extends "main/base_layout.html" %}
+
+{% block title %}
+Deepak Puri
+{% endblock %}
+
+{% block content %}
+    
+    <div class="card-panel blue lighten-5">
+    <h1>Deepak Puri</h1>
+        <blockquote>
+        <ul>
+            <li>Software Developer Trainee, Odessa Technologies</li>
+            <li>purid47@gmail.com</li>
+            <li><a href="https://www.linkedin.com/in/deepakpuri1996" target="_blank">linkedin.com/in/deepakpuri1996</a></li>
+        </ul>
+        </blockquote>
+    </div>
+    <br>
+    <div class="card-panel teal lighten-2">
+        <h6>ACADEMIC QUALIFICATIONS</h6>
+    </div>
+    <div class="card-panel yellow accent-1">
+    <table class=" highlight">
+        <thead class="yellow accent-2">
+            <tr>
+                <th>Year</th>
+                <th>Degree</th>
+                <th>Institue</th>
+                <th>CGPA/Percentage</th>
+              </tr>
+        </thead>
+
+        <tbody>
+          
+          <tr>
+            <td>2019</td>
+            <td>Bachelor of Technology Computer Science and Engineering</td>
+            <td>Lovely Professional University, Phagwara</td>
+            <td>8.94/10</td>
+          </tr>
+          <tr>
+            <td>2015</td>
+            <td>XII (CBSE)</td>
+            <td>St. Mary’s Academy, Saharanpur</td>
+            <td>73.8%</td>
+          </tr>
+          <tr>
+            <td>2013</td>
+            <td>X (CBSE)</td>
+            <td>St. Mary’s Academy, Saharanpur</td>
+            <td>7/10</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+      <blockquote>
+        Want to be machine scientist and contribute my research in the field of NLP 
+        (Natural Language Processing) and Deep Learning using python ecosystem.
+      </blockquote>
+      <div class="card-panel teal lighten-2">PROJECTS
+      {% include "main/includes/projects.html"%}
+      </div>
+   
+        
+{% endblock %}
